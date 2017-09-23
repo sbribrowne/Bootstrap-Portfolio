@@ -46,7 +46,7 @@ h2 {
 	font-family: 'Raleway', sans-serif;
 	color: #915174;
 	margin-top: 40px;
-	margin-left: 75px;
+	margin-left: 90px;
 }
 
 h5 {
@@ -59,6 +59,7 @@ h5 {
 	font-family: 'Raleway', sans-serif;
 	color: #915174;
 	font-size: 20px;
+	border-top: 2px solid 
 }
 
 .sociallinks {
@@ -74,22 +75,24 @@ h5 {
 .portpics {
 	border-radius: 5px;
 	box-shadow: 1px 1px 3px #888888;
+	position: relative;
+    max-width: 100%; 
 }
 
 /* Portfolio picture hover effects*/
 
-/*.project-overlay {
+.project-overlay {
     position: absolute;
     top: 0;
-    width: 100%;
+    width: 350px;
     height: 100%;
-    background-color: rgba(41,128,185,0.9);
     color: #fff;
-    padding: 50%;
+    border-radius: 5px;
+    opacity: 0;
+  	transition: .5s ease;
+    background-color: #FFF9FC;
 }
 
-.img-overlay {
-    position: relative;
-    max-width: 100%; 
+.imgcontainer:hover .project-overlay {
+  opacity: 1;
 }
-
