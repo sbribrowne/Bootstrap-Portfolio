@@ -1,10 +1,95 @@
+
 a {
-	color: #ffffff;
+	color: #620637;
+	letter-spacing: 2px;
 }
 
 a:link,
 a:active,
 a:hover {
 	text-decoration: none;
-	color: #ffffff;
+	color: #CDB0BF;
 }
+
+img {
+	width: 100%;
+}
+
+#portfolio {
+	width: 400px;
+	border-radius: 5px;
+	box-shadow: 1px 1px 3px #888888;
+}
+
+#rowunder {
+	background-color: #620637;
+	border-radius: 5px;
+	height: 254px;
+	box-shadow: 1px 1px 3px #888888;
+}
+
+.whatido {
+	height: 100px;
+	width: 100px;
+}
+
+.whatidoicons {
+	margin-left: 75px;
+}
+
+h1 {
+	font-family: 'Raleway', sans-serif;
+	color: #915174;
+}
+
+h2 {
+	font-family: 'Raleway', sans-serif;
+	color: #915174;
+	margin-top: 40px;
+	margin-left: 75px;
+}
+
+h5 {
+	font-family: 'Raleway', sans-serif;
+	color: #915174;
+}
+
+#footer {
+	margin:0;
+	font-family: 'Raleway', sans-serif;
+	color: #915174;
+	font-size: 20px;
+}
+
+.sociallinks {
+	height: 30px;
+	width: 30px;
+}
+
+.formlbl {
+	letter-spacing: normal;
+	font-family: 'Raleway', sans-serif;
+}
+
+.portpics {
+	border-radius: 5px;
+	box-shadow: 1px 1px 3px #888888;
+}
+
+/* Portfolio picture hover effects*/
+
+/*.project-overlay {
+    position: absolute;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(41,128,185,0.9);
+    color: #fff;
+    padding: 50%;
+}
+
+.img-overlay {
+    position: relative;
+    max-width: 100%; 
+}
+
