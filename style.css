@@ -33,8 +33,15 @@ img {
 	width: 100px;
 }
 
+@keyframes example2 {
+    from {opacity: 0;}
+    to {opacity: 2;}
+}
+
 .whatidoicons {
 	margin-left: 75px;
+	animation-name: example2;
+	animation-duration: 5s;
 }
 
 h1 {
@@ -79,6 +86,11 @@ h5 {
     max-width: 100%; 
 }
 
+.imgcontainer {
+	animation-name: example2;
+	animation-duration: 5s;
+}
+
 /* Portfolio picture hover effects*/
 
 .project-overlay {
@@ -95,4 +107,10 @@ h5 {
 
 .imgcontainer:hover .project-overlay {
   opacity: 1;
+}
+
+.porttitle {
+	margin-top: 50px;
+	color: #915174;
+	margin-left: 15px;
 }
