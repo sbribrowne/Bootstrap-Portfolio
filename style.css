@@ -83,7 +83,8 @@ h5 {
 	border-radius: 5px;
 	box-shadow: 1px 1px 3px #888888;
 	position: relative;
-    max-width: 100%; 
+    width: 27vw;
+    height: 100%; 
 }
 
 .imgcontainer {
@@ -96,7 +97,7 @@ h5 {
 .project-overlay {
     position: absolute;
     top: 0;
-    width: 350px;
+    width: 27vw;
     height: 100%;
     color: #fff;
     border-radius: 5px;
@@ -113,4 +114,5 @@ h5 {
 	margin-top: 50px;
 	color: #915174;
 	margin-left: 15px;
+	font-size: 1.5vw;
 }
